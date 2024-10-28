@@ -69,7 +69,7 @@ public class Guesser {
       if (reply.equals("T") || reply.equals("F")) {
         return reply;
       } else {
-        System.out.println("Invalid reply. Please enter T or F.");
+        System.out.println("Invalid reply Please enter T or F");
       }
     }
 
