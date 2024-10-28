@@ -1,0 +1,5 @@
+Vad är pull repektive push?
+När använder man log respektive status?
+Vad är en Git branch och varför är de viktiga?
+Vad är en Git branch och varför är de viktiga?
+Det finns flera sätt att rulla tillbaka koden till ett tidigare tillstånd. Förklara skillnaden och motivera när man skulle använda den ena eller andra metoden. Ge exempel på de kommandon du använder för att göra detta och vissa att det fungerar, vilken output du fick från git-kommandona.
