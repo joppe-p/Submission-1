@@ -1,40 +1,15 @@
 import java.io.Console;
-import java.util.Scanner;
 
-/**
- * Assignment 1 - Guessing Game
- * 
- * Here's the unfinished source code
- * for the Guesser class. It is your
- * task to complete the missing parts.
- */
 public class Guesser {
   private int low;
   private int high;
 
-  /*
-   * Task 1. Write code here for a constructor
-   * which takes two int arguments and saves
-   * them in the instance variables low and high.
-   *
-   * If you don't remember the syntax for how to write
-   * constructors, revisit the chapter "Classes"
-   * and review the section about constructors.
-   *
-   */
-
-  // Write the constructor below this line.
   public Guesser(int low, int high) {
     this.low = low;
     this.high = high;
 
   }
 
-  /*
-   * Task 2. Complete the start() method, so that
-   * in the method body, you call first the
-   * rules() method, next the doGuesses() method.
-   */
   public void start() {
     rules();
     doGuesses();
@@ -60,6 +35,7 @@ public class Guesser {
    */
   private String getReply() {
     String reply = null;
+<<<<<<< HEAD
     Scanner scanner = new Scanner(System.in);
 
     while (true) {
@@ -73,6 +49,13 @@ public class Guesser {
       }
     }
 
+=======
+    // Write code here which reads a String from the console.
+    // As long as it is not a valid reply (one of "T" and "F")
+    // write an error message, and read a new reply.
+    // When you have gotten a valid reply, return it.
+    return reply;
+>>>>>>> parent of 34419d3 (Finish task 3)
   }
 
   private void doGuesses() {
