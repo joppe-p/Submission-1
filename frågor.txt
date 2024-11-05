@@ -1,5 +1,20 @@
 Vad är pull repektive push?
+du använder "git pull" så hämtar ändringar från en remote respentory
+medans med "git push" så pushar du ut ändringar till remote respentory
+
 När använder man log respektive status?
+man använder "git log" när du vill se historiken av commits i den aktuella branchen.
+Medans "git status" används för att få en översikt över statusen på din lokala repository.
+
 Vad är en Git branch och varför är de viktiga?
-Vad är en Git branch och varför är de viktiga?
+ett branch i git är en separat linje av utveckling. Det låtter den personen med att kunna arbeta på olika funktioner eller förbättringar utan att påverka huvudlinjen.
+
 Det finns flera sätt att rulla tillbaka koden till ett tidigare tillstånd. Förklara skillnaden och motivera när man skulle använda den ena eller andra metoden. Ge exempel på de kommandon du använder för att göra detta och vissa att det fungerar, vilken output du fick från git-kommandona.
+Det finns checkout, revert, och reset.
+checkout används för att se saker vid en specifik commit, men den påverkar inte commit historiken, används för temporära ändringar.
+Reset används för att återställa din nuvarande branch till ett tidigare tillstånd den kan påverka både commit-historik och arbetskatalog, det beror på vilket alternativ du använder som --hard. 
+revert används för att ångra ändringar som har gjorts i tidigare commit. Den mer säkrare än reset men den skilljer sig från reset genom att den gör en ny commit som ångra commits.
+
+Beskriv och jämför hur man kan använda git rebase och git merge i ett scenario där flera utvecklare jobbar på olika feature branches. Diskutera fördelarna och nackdelarna med båda teknikerna, samt hur de påverkar historiken.
+git rebase och git merge är två olika sätt för att kombinera ändringar från ett branch till en annan, och de används ofta när flera utvecklare arbetar på olika branches.
+alltså tänk om flera utvecklare arbetar på varsin branch. Om eller snarare när de använder merge kan historiken se ut som en komplex sak av flera grenar och merge commits. Om de använder rebase kommer historiken att vara mer snyggare och enklare att följa, men kan leda till problem om en utvecklare publicerar sin branch innan den rebases.
