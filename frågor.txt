@@ -18,3 +18,6 @@ revert används för att ångra ändringar som har gjorts i tidigare commit. Den
 Beskriv och jämför hur man kan använda git rebase och git merge i ett scenario där flera utvecklare jobbar på olika feature branches. Diskutera fördelarna och nackdelarna med båda teknikerna, samt hur de påverkar historiken.
 git rebase och git merge är två olika sätt för att kombinera ändringar från ett branch till en annan, och de används ofta när flera utvecklare arbetar på olika branches.
 alltså tänk om flera utvecklare arbetar på varsin branch. Om eller snarare när de använder merge kan historiken se ut som en komplex sak av flera grenar och merge commits. Om de använder rebase kommer historiken att vara mer snyggare och enklare att följa, men kan leda till problem om en utvecklare publicerar sin branch innan den rebases.
+
+
+awada
