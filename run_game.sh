@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Your name is"  
-DIR_NAME="Your_real_name"
+DIR_NAME="Jonathan_Persson"
 mkdir "$DIR_NAME"
 
 cp *.java "$DIR_NAME"
