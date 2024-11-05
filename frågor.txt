@@ -20,4 +20,6 @@ git rebase och git merge är två olika sätt för att kombinera ändringar frå
 alltså tänk om flera utvecklare arbetar på varsin branch. Om eller snarare när de använder merge kan historiken se ut som en komplex sak av flera grenar och merge commits. Om de använder rebase kommer historiken att vara mer snyggare och enklare att följa, men kan leda till problem om en utvecklare publicerar sin branch innan den rebases.
 
 
+
 awada
+
